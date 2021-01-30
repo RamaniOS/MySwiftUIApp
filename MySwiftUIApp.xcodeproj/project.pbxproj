@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BCC9AA4E25C5D53B0081DE70 /* MySwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA4D25C5D53B0081DE70 /* MySwiftUIAppApp.swift */; };
-		BCC9AA5025C5D53B0081DE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA4F25C5D53B0081DE70 /* ContentView.swift */; };
 		BCC9AA5225C5D53D0081DE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC9AA5125C5D53D0081DE70 /* Assets.xcassets */; };
 		BCC9AA5525C5D53D0081DE70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC9AA5425C5D53D0081DE70 /* Preview Assets.xcassets */; };
-		BCC9AA5725C5D53D0081DE70 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA5625C5D53D0081DE70 /* Persistence.swift */; };
-		BCC9AA5A25C5D53D0081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA5825C5D53D0081DE70 /* MySwiftUIApp.xcdatamodeld */; };
 		BCC9AA6525C5D53D0081DE70 /* MySwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA6425C5D53D0081DE70 /* MySwiftUIAppTests.swift */; };
 		BCC9AA7025C5D53D0081DE70 /* MySwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AA6F25C5D53D0081DE70 /* MySwiftUIAppUITests.swift */; };
+		BCC9AAED25C601840081DE70 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAE625C601840081DE70 /* Persistence.swift */; };
+		BCC9AAEE25C601840081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAE825C601840081DE70 /* MySwiftUIApp.xcdatamodeld */; };
+		BCC9AAEF25C601840081DE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAEB25C601840081DE70 /* ContentView.swift */; };
+		BCC9AAFA25C601C00081DE70 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAF925C601C00081DE70 /* MySwiftUIApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +36,8 @@
 
 /* Begin PBXFileReference section */
 		BCC9AA4A25C5D53A0081DE70 /* MySwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCC9AA4D25C5D53B0081DE70 /* MySwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppApp.swift; sourceTree = "<group>"; };
-		BCC9AA4F25C5D53B0081DE70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCC9AA5125C5D53D0081DE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC9AA5425C5D53D0081DE70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BCC9AA5625C5D53D0081DE70 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BCC9AA5925C5D53D0081DE70 /* MySwiftUIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySwiftUIApp.xcdatamodel; sourceTree = "<group>"; };
 		BCC9AA5B25C5D53D0081DE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCC9AA6025C5D53D0081DE70 /* MySwiftUIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC9AA6425C5D53D0081DE70 /* MySwiftUIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppTests.swift; sourceTree = "<group>"; };
@@ -49,6 +45,10 @@
 		BCC9AA6B25C5D53D0081DE70 /* MySwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC9AA6F25C5D53D0081DE70 /* MySwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		BCC9AA7125C5D53D0081DE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC9AAE625C601840081DE70 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BCC9AAE925C601840081DE70 /* MySwiftUIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySwiftUIApp.xcdatamodel; sourceTree = "<group>"; };
+		BCC9AAEB25C601840081DE70 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCC9AAF925C601C00081DE70 /* MySwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySwiftUIApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,13 @@
 		BCC9AA4C25C5D53B0081DE70 /* MySwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				BCC9AA4D25C5D53B0081DE70 /* MySwiftUIAppApp.swift */,
-				BCC9AA4F25C5D53B0081DE70 /* ContentView.swift */,
-				BCC9AA5125C5D53D0081DE70 /* Assets.xcassets */,
-				BCC9AA5625C5D53D0081DE70 /* Persistence.swift */,
+				BCC9AAF925C601C00081DE70 /* MySwiftUIApp.swift */,
 				BCC9AA5B25C5D53D0081DE70 /* Info.plist */,
-				BCC9AA5825C5D53D0081DE70 /* MySwiftUIApp.xcdatamodeld */,
+				BCC9AA5125C5D53D0081DE70 /* Assets.xcassets */,
+				BCC9AAEA25C601840081DE70 /* View */,
+				BCC9AAE525C601840081DE70 /* Model */,
+				BCC9AAEC25C601840081DE70 /* ViewModel */,
+				BCC9AAE725C601840081DE70 /* Misc */,
 				BCC9AA5325C5D53D0081DE70 /* Preview Content */,
 			);
 			path = MySwiftUIApp;
@@ -134,6 +135,37 @@
 				BCC9AA7125C5D53D0081DE70 /* Info.plist */,
 			);
 			path = MySwiftUIAppUITests;
+			sourceTree = "<group>";
+		};
+		BCC9AAE525C601840081DE70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9AAE625C601840081DE70 /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCC9AAE725C601840081DE70 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9AAE825C601840081DE70 /* MySwiftUIApp.xcdatamodeld */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		BCC9AAEA25C601840081DE70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9AAEB25C601840081DE70 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCC9AAEC25C601840081DE70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC9AA5725C5D53D0081DE70 /* Persistence.swift in Sources */,
-				BCC9AA5025C5D53B0081DE70 /* ContentView.swift in Sources */,
-				BCC9AA4E25C5D53B0081DE70 /* MySwiftUIAppApp.swift in Sources */,
-				BCC9AA5A25C5D53D0081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */,
+				BCC9AAEE25C601840081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */,
+				BCC9AAEF25C601840081DE70 /* ContentView.swift in Sources */,
+				BCC9AAED25C601840081DE70 /* Persistence.swift in Sources */,
+				BCC9AAFA25C601C00081DE70 /* MySwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,12 +622,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BCC9AA5825C5D53D0081DE70 /* MySwiftUIApp.xcdatamodeld */ = {
+		BCC9AAE825C601840081DE70 /* MySwiftUIApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BCC9AA5925C5D53D0081DE70 /* MySwiftUIApp.xcdatamodel */,
+				BCC9AAE925C601840081DE70 /* MySwiftUIApp.xcdatamodel */,
 			);
-			currentVersion = BCC9AA5925C5D53D0081DE70 /* MySwiftUIApp.xcdatamodel */;
+			currentVersion = BCC9AAE925C601840081DE70 /* MySwiftUIApp.xcdatamodel */;
 			path = MySwiftUIApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
