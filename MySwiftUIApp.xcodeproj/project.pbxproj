@@ -15,6 +15,7 @@
 		BCC9AAEE25C601840081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAE825C601840081DE70 /* MySwiftUIApp.xcdatamodeld */; };
 		BCC9AAEF25C601840081DE70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAEB25C601840081DE70 /* ContentView.swift */; };
 		BCC9AAFA25C601C00081DE70 /* MySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AAF925C601C00081DE70 /* MySwiftUIApp.swift */; };
+		BCC9AB0225C6035C0081DE70 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9AB0125C6035C0081DE70 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BCC9AAE925C601840081DE70 /* MySwiftUIApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MySwiftUIApp.xcdatamodel; sourceTree = "<group>"; };
 		BCC9AAEB25C601840081DE70 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCC9AAF925C601C00081DE70 /* MySwiftUIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySwiftUIApp.swift; sourceTree = "<group>"; };
+		BCC9AB0125C6035C0081DE70 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				BCC9AAEB25C601840081DE70 /* ContentView.swift */,
+				BCC9AB0125C6035C0081DE70 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				BCC9AAEE25C601840081DE70 /* MySwiftUIApp.xcdatamodeld in Sources */,
 				BCC9AAEF25C601840081DE70 /* ContentView.swift in Sources */,
 				BCC9AAED25C601840081DE70 /* Persistence.swift in Sources */,
+				BCC9AB0225C6035C0081DE70 /* LoginView.swift in Sources */,
 				BCC9AAFA25C601C00081DE70 /* MySwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
